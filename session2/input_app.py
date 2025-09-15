@@ -8,11 +8,8 @@ df = pd.read_csv("state_data.csv")
 # Exercise: Change this code to:
 # 1. Ask the user to select a state
 # 2. Have it populate with all the list of unique states
-option = st.selectbox(
-    'Select your favorite fruit:',
-    ['Apple', 'Banana', 'Cherry']
-)
+option = st.selectbox("Select your favorite fruit:", ["Apple", "Banana", "Cherry"])
 
-st.write('You selected:', option)
+st.write("You selected:", option)
 
 st.dataframe(df)
