@@ -1,6 +1,6 @@
 """
 This script generates the dataset which is used by the app. The final structure of the data looks like:
-(State, Year, Total Population, Median Household Income)
+(State, Year, Total Population, Median Household Income, State Abbrev)
 
 Data comes from the American Community Survey 1-year Estimates, and is retrieved from the US Census Bureau's
 API via the censusdis package.
@@ -8,6 +8,7 @@ API via the censusdis package.
 
 from censusdis.datasets import ACS1
 from censusdis.multiyear import download_multiyear
+import us
 
 census_vars = {
     "NAME": "State",
@@ -35,4 +36,12 @@ df = df[new_order]
 
 # Sort values and write to disk
 df = df.sort_values(["State", "Year"])
+
+# Add state abbreviations, so I can make a choropleth map with px.choropleth
+def get_abbrev(state_name):
+    match = us.states.lookup(state_name)
+    return match.abbr if match else None  # Happens for Puerto Rico
+
+df['State Abbrev'] = df['State'].apply(get_abbrev)
+
 df.to_csv("state_data.csv", index=False)

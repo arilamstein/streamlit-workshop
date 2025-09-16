@@ -11,6 +11,7 @@ dependencies = [
     "pandas>=2.3.2",
     "plotly>=6.3.0",
     "streamlit>=1.49.1",
+    "us>=3.2.0",
 ]
 
 [dependency-groups]
