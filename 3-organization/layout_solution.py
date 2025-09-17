@@ -16,7 +16,7 @@ with col2:
 with col3:
     year = st.selectbox("Year:", df["Year"].unique())
 
-graph_tab, map_tab, table_tab = st.tabs(['📈 Graph', '🗺️ Map', '📊 Table'])
+graph_tab, map_tab, table_tab = st.tabs(["📈 Graph", "🗺️ Map", "📊 Table"])
 with graph_tab:
     # State line graph
     mask = df["State"] == state
