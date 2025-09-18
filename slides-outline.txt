@@ -1,0 +1,13 @@
+Exercise #1:
+	-Review the functions in backend.py
+	-import backend as be to notebook. Call functions to do stuff
+
+Exercise #2:
+	-Update streamlit app to just call be
+
+
+
+Final section:
+Deployment
+
+Formatting code with "uv run black"
