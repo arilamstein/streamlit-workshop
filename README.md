@@ -4,7 +4,7 @@ Code and slides for an introductory Streamlit workshop, designed to run over two
 ## 🧠 Prerequisites
 This workshop assumes learners are comfortable with:
   * Navigating the command line
-  * Using Git (clone, commit, push)
+  * Using Git and GitHub
   * Writing Python code (scripts and Jupyter notebooks)
 
 ## 📊 Course Overview: Building Interactive Data Apps with Streamlit
