@@ -1,6 +1,8 @@
 # streamlit-workshop
 Code and slides for an introductory Streamlit workshop, designed to run over two 3-hour sessions. The course is split into four modules and includes hands-on exercises and tips for using large language models (LLMs) to support development.
 
+You can see the app that course participants will develop [here](https://workshop-final-app.streamlit.app/).
+
 ## 🧠 Prerequisites
 This workshop assumes learners are comfortable with:
   * Navigating the command line
@@ -21,4 +23,4 @@ The heart of the course. Learn how to add interactive widgets (like dropdowns an
 Improve user experience with layout tools like columns and tabs, and learn how to split code into separate files for UI and data logic. This module emphasizes clarity, maintainability, and empathy for future collaborators.
 
 ### 4. Deployment
-Share your app with the world. This module walks through a secure, beginner-friendly deployment workflow using GitHub’s web interface.
+Share your app with the world. This module walks through a secure, beginner-friendly deployment workflow using Streamlit Cloud and GitHub’s web interface.
