@@ -48,9 +48,8 @@ In your terminal, run:
 jupyter notebook 1-intro.ipynb
 ```
 
-This should open a browser tab showing the first notebook in the course. The first cell loads the dataset we'll use throughout the workshop - click "Run" (or press Shift+Enter) to execute it. You should see a preview of the data appear below the cell.
+This should open a browser tab with the first notebook in the course. Follow the instructions there to complete Exercise #1.
 
-That's the whole exercise - once it runs without errors, you're all set for the workshop 🎉
+That's all you need for the workshop 🎉
 
 If you hit any issues, reach out in the course chat.
-
