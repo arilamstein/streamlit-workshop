@@ -7,10 +7,9 @@ Completing this setup before the workshop ensures we can dive straight into codi
 Start by making sure you have the following software installed:
 
 - **Git:** https://git-scm.com/downloads  
-- **uv (package manager):** https://docs.astral.sh/uv/getting-started/installation/  
+- **`uv` (package manager):** https://docs.astral.sh/uv/getting-started/installation/  
   Used to manage project dependencies and ensure consistent Python versions. After installing `uv`, restart the terminal.
-- **A code editor/IDE:** I recommend VS Code: https://code.visualstudio.com/download  
-- **A way to work with Jupyter Notebooks:** I recommend the Jupyter extension for VS Code: https://code.visualstudio.com/docs/datascience/jupyter-notebooks
+- **Code editor:** Any editor is fine. I personally use VS Code: https://code.visualstudio.com/download  
 
 ## Step 1: Clone the course repo
 
@@ -42,6 +41,16 @@ Verify:
 - Run `python --version` → should report a version starting with **Python 3.13**
 - Run `which python` (Mac/Linux) or `where python` (Windows) → should show a path inside `.venv`
 
-If you cloned the repo, created and activated the environment, then you’re ready for the workshop 🎉
+## Step 4: Open the first notebook
 
-If you hit issues, reach out in the course chat.
+In your terminal, run:
+```sh
+jupyter notebook 1-intro.ipynb
+```
+
+This should open a browser tab showing the first notebook in the course. The first cell loads the dataset we'll use throughout the workshop - click "Run" (or press Shift+Enter) to execute it. You should see a preview of the data appear below the cell.
+
+That's the whole exercise - once it runs without errors, you're all set for the workshop 🎉
+
+If you hit any issues, reach out in the course chat.
+
