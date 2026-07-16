@@ -41,14 +41,14 @@ Verify:
 - Run `python --version` → should report a version starting with **Python 3.13**
 - Run `which python` (Mac/Linux) or `where python` (Windows) → should show a path inside `.venv`
 
-## Step 4: Open the first notebook
+## Step 4: Open the workbook
 
 In your terminal, run:
 ```sh
-jupyter notebook 1-intro.ipynb
+jupyter notebook workbook.ipynb
 ```
 
-This should open a browser tab with the first notebook in the course. Follow the instructions there to complete Exercise #1.
+This should open a browser tab with the course workbook. Follow the instructions there to complete Exercise #1.
 
 That's all you need for the workshop 🎉
 
