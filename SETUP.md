@@ -50,8 +50,8 @@ In your terminal, run:
 jupyter notebook workbook.ipynb
 ```
 
-This should open a browser tab with the course workbook. Follow the instructions there to complete Exercise #1.
+This should open a browser tab with the course workbook. Follow the instructions there to complete Exercise 1.1.
 
-That's all you need for the workshop 🎉
+After you complete Exercise 1.1, the setup is complete 🎉
 
 If you hit any issues, reach out in the course chat.
