@@ -2,7 +2,7 @@
 
 Completing this setup before the workshop ensures we can dive straight into coding without install delays.
 
-> ⚠️ **Please complete this setup on your own computer** — not in a cloud environment like GitHub Codespaces or Google Colab. In past workshops, students using these ran into problems that prevented them from completing the exercises.
+> ⚠️ **Please complete this setup on your own computer** — not in a cloud environment like GitHub Codespaces or Google Colab. In past workshops, students using cloud environments ran into problems that prevented them from completing the exercises.
 
 ## Prerequisites
 
