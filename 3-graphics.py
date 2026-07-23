@@ -8,7 +8,6 @@ df = pd.read_csv("state_data.csv")
 
 state = st.selectbox("Select a State:", df["State"].unique())
 
-mask = df["State"] == state
-df_state = df[mask]
+df_state = df[df["State"] == state]
 
 st.dataframe(df_state)
