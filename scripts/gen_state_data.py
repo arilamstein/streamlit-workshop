@@ -18,7 +18,7 @@ census_vars = {
 
 # Note that data was not published in 2020 due to Covid-19.
 # See https://www.census.gov/programs-surveys/acs/data/experimental-data.html
-years = [year for year in range(2005, 2024) if year != 2020]
+years = [year for year in range(2005, 2025) if year != 2020]
 df = download_multiyear(
     dataset=ACS1,
     vintages=years,
